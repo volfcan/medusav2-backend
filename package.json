@@ -4,7 +4,6 @@
   "description": "A starter for Medusa projects.",
   "author": "Medusa (https://medusajs.com)",
   "license": "MIT",
-  "type": "module",
   "keywords": [
     "sqlite",
     "postgres",
@@ -48,7 +47,8 @@
     "@medusajs/tax": "preview",
     "@medusajs/user": "preview",
     "@medusajs/workflow-engine-inmemory": "preview",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
     "@medusajs/medusa-cli": "preview",
